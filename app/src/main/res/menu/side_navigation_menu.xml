@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/group_main" android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_monitoring"
+            android:icon="@drawable/ic_monitor"
+            android:title="Monitoring Stations" />
+        <item
+            android:id="@+id/nav_analytics"
+            android:icon="@drawable/ic_chart"
+            android:title="Analytics" />
+        <item
+            android:id="@+id/nav_map"
+            android:icon="@android:drawable/ic_menu_mapmode"
+            android:title="Air Quality Map" />
+        <item
+            android:id="@+id/nav_alerts"
+            android:icon="@drawable/ic_bell"
+            android:title="Alerts (3 new)" />
+    </group>
+
+    <item android:title="COMMUNITY">
+        <menu>
+            <group android:id="@+id/group_community" android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_community"
+                    android:icon="@android:drawable/ic_menu_myplaces"
+                    android:title="Community" />
+                <item
+                    android:id="@+id/nav_reports"
+                    android:icon="@android:drawable/ic_menu_save"
+                    android:title="Environmental Reports" />
+                <item
+                    android:id="@+id/nav_contributors"
+                    android:icon="@android:drawable/ic_menu_view"
+                    android:title="Contributors" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="ACCOUNT">
+        <menu>
+            <group android:id="@+id/group_account" android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_profile"
+                    android:icon="@drawable/ic_profile"
+                    android:title="My Profile" />
+                <item
+                    android:id="@+id/nav_settings"
+                    android:icon="@android:drawable/ic_menu_preferences"
+                    android:title="Settings" />
+                <item
+                    android:id="@+id/nav_help"
+                    android:icon="@android:drawable/ic_menu_help"
+                    android:title="Help Centre" />
+                <item
+                    android:id="@+id/nav_about"
+                    android:icon="@android:drawable/ic_menu_info_details"
+                    android:title="About" />
+                <item
+                    android:id="@+id/nav_logout"
+                    android:icon="@android:drawable/ic_menu_close_clear_cancel"
+                    android:title="Log Out" />
+            </group>
+        </menu>
+    </item>
+</menu>

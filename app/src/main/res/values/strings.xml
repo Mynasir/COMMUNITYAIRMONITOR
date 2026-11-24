@@ -1,0 +1,139 @@
+<resources>
+    <string name="app_name">Community Air Monitor</string>
+    <string name="app_tagline">Community air quality at a glance</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_monitoring">Monitor</string>
+    <string name="nav_analytics">Analytics</string>
+    <string name="nav_alerts">Alerts</string>
+    <string name="nav_profile">Profile</string>
+
+    <!-- Dashboard -->
+    <string name="greeting">Welcome back</string>
+    <string name="community_label">Monitoring location</string>
+    <string name="community_name">Obuasi, Ashanti Region</string>
+    <string name="live_status">Device online</string>
+    <string name="current_pm25">Current PM2.5</string>
+    <string name="sample_reading">Sample data shown until live sensor sync is connected</string>
+    <string name="status_good">Good · Air quality is satisfactory</string>
+    <string name="status_moderate">Moderate · Sensitive groups should take care</string>
+    <string name="status_unhealthy">Unhealthy · Limit outdoor exposure</string>
+    <string name="air_metrics">Environmental measurements</string>
+    <string name="recent_activity">Recent activity</string>
+    <string name="recent_sensor_update">Latest sensor update</string>
+    <string name="recent_sensor_description">OBUASI_001 · Waiting for live telemetry from your connected device.</string>
+    <string name="demo_disclaimer">Air quality guidance is informational and may vary by local standards.</string>
+
+    <!-- Monitoring -->
+    <string name="monitoring_title">Live monitoring</string>
+    <string name="monitoring_subtitle">Track real-time readings from your community air quality nodes.</string>
+    <string name="monitoring_node_label">Active node</string>
+    <string name="monitoring_status_placeholder">Connected</string>
+    <string name="monitoring_pm25_label">PM2.5 concentration</string>
+    <string name="monitoring_pm10_label">PM10</string>
+
+    <!-- Analytics -->
+    <string name="analytics_title">Analytics</string>
+    <string name="analytics_subtitle">Explore trends and compare recent air quality patterns.</string>
+    <string name="analytics_period">Last 7 days</string>
+    <string name="analytics_overview">Historical overview</string>
+    <string name="analytics_avg_pm25">Average PM2.5</string>
+    <string name="analytics_peak_pm25">Peak PM2.5</string>
+
+    <!-- Alerts -->
+    <string name="alerts_title">Alerts</string>
+    <string name="alerts_subtitle">Stay informed when air quality crosses important thresholds.</string>
+    <string name="alerts_status_label">Current status</string>
+    <string name="alerts_all_clear_title">All systems normal</string>
+    <string name="alerts_latest_label">Latest update</string>
+    <string name="alerts_latest_placeholder">No critical alerts at this time.</string>
+    <string name="alerts_history_hint">Alert history will appear here as events are recorded.</string>
+
+    <!-- Profile -->
+    <string name="profile_title">Profile</string>
+    <string name="profile_subtitle">Manage your preferences and app experience.</string>
+    <string name="profile_appearance_label">Appearance</string>
+    <string name="profile_appearance_value">System default</string>
+    <string name="profile_notifications_label">Notifications</string>
+    <string name="profile_notifications_value">Enabled</string>
+    <string name="profile_storage_hint">Sensor data is stored securely on this device.</string>
+
+    <!-- Interactive UI -->
+    <string name="action_refresh">Refresh</string>
+    <string name="action_view_monitor">Open monitor</string>
+    <string name="action_view_alerts">View alerts</string>
+    <string name="action_view_analytics">See trends</string>
+    <string name="live_updating">Live data updating</string>
+    <string name="last_updated_now">Updated just now</string>
+    <string name="dashboard_quick_actions">Quick actions</string>
+    <string name="aqi_scale_label">Air quality level</string>
+    <string name="tap_for_details">Tap a card for details</string>
+    <string name="range_24h">24H</string>
+    <string name="range_7d">7D</string>
+    <string name="range_30d">30D</string>
+
+    <!-- Page sections -->
+    <string name="home_overview">Community overview</string>
+    <string name="home_live_snapshot">Live snapshot</string>
+    <string name="home_environment">Environment</string>
+    <string name="home_health_tip">Health tip</string>
+    <string name="home_tip_good">Air quality is good. Enjoy outdoor activities as normal.</string>
+    <string name="home_tip_moderate">Air quality is moderate. Sensitive groups should consider limiting prolonged outdoor exertion.</string>
+    <string name="home_tip_unhealthy">Air quality is unhealthy. Reduce outdoor exposure and keep indoor air clean.</string>
+
+    <string name="monitor_node_overview">Node overview</string>
+    <string name="monitor_pollutants">Pollutants</string>
+    <string name="monitor_environment">Environment</string>
+    <string name="monitor_device_health">Device health</string>
+    <string name="monitor_signal">Signal</string>
+    <string name="monitor_battery">Battery</string>
+    <string name="monitor_uptime">Uptime</string>
+    <string name="monitor_gas_index">Gas index</string>
+
+    <string name="analytics_summary">Summary</string>
+    <string name="analytics_trend">Pollution trend</string>
+    <string name="analytics_insights">Insights</string>
+    <string name="analytics_latest_pm25">Latest PM2.5</string>
+    <string name="analytics_min_pm25">Lowest PM2.5</string>
+
+    <string name="alerts_summary">Alert summary</string>
+    <string name="alerts_filter_all">All</string>
+    <string name="alerts_filter_hazardous">Hazardous</string>
+    <string name="alerts_filter_warning">Warning</string>
+    <string name="alerts_filter_system">System</string>
+    <string name="alerts_empty_title">No alerts to show</string>
+    <string name="alerts_empty_body">When air quality thresholds are crossed or system events occur, alerts will appear here.</string>
+
+    <string name="profile_community">Community</string>
+    <string name="profile_device">Device &amp; data</string>
+    <string name="profile_preferences">Preferences</string>
+    <string name="profile_support">Support</string>
+    <string name="profile_location_label">Default location</string>
+    <string name="profile_node_label">Primary node</string>
+    <string name="profile_data_sync_label">Data sync</string>
+    <string name="profile_data_sync_value">Automatic when connected</string>
+    <string name="profile_units_label">Units</string>
+    <string name="profile_units_value">µg/m³, °C</string>
+    <string name="profile_about_version">Version 1.0 (Debug)</string>
+
+    <!-- Reusable states / components -->
+    <string name="state_loading">Loading…</string>
+    <string name="state_empty_title">Nothing to show yet</string>
+    <string name="state_empty_message">Content will appear here when available.</string>
+    <string name="state_error_title">Something went wrong</string>
+    <string name="state_error_message">We couldn’t load this content. Please try again.</string>
+    <string name="state_offline_title">You’re offline</string>
+    <string name="state_offline_message">Check your connection and try again. Cached data may be shown when available.</string>
+    <string name="action_retry">Retry</string>
+    <string name="action_save">Save</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_close">Close</string>
+    <string name="action_continue">Continue</string>
+    <string name="label_demo_data">DEMO DATA</string>
+    <string name="label_last_updated">Last updated</string>
+
+    <!-- Units / misc -->
+    <string name="unit_ug_m3">µg/m³</string>
+    <string name="value_placeholder_pm25">--</string>
+</resources>
